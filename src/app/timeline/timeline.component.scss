@@ -1,0 +1,34 @@
+.timeline {
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+
+.timeline-bar {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  top: 40%;
+  background-color: #8F2D56;
+}
+
+.timeline-date {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  border-right: solid 10px #8F2D56;
+  border-left: solid 10px #8F2D56;
+  background-color: #8F2D56;
+  margin-left: 20px;
+  color: white;
+  font-size: 1.4em;
+}
+
+.timeline-date div {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}

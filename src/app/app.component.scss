@@ -1,0 +1,29 @@
+.page, .page-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.page-header {
+  // position: absolute;
+  height: 15%;
+  width: 100%;
+}
+
+.page-background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.page-content {
+  position: relative;
+  height: 85%;
+}
+
+.page, .page-wrapper,
+.page-header, .page-background,
+.page-content {
+  background-color: rgba(255, 255, 255, 0);
+}

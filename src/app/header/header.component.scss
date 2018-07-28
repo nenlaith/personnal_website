@@ -1,0 +1,32 @@
+#icon-header {
+  display: inline-block;
+  text-align: center;
+  height: 1.3em;
+  width: 1.3em;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  background-color: #8F2D56;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+nav {
+  position: relative;
+  width: 100%;
+}
+
+.photo {
+  max-height: 125px;
+  max-width: 125px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: solid 10px #8F2D56;
+}
+
+.photo img {
+  max-height: 100%;
+  max-width: 100%;
+}
